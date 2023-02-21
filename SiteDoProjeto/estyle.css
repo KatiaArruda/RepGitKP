@@ -1,5 +1,6 @@
 header{
-
+    color: gray;
+    text-align: center;
 
 }
 body{
@@ -12,9 +13,11 @@ body{
     width: 400px;
 }
 section{
+    height: 45vh;
+    width: 45vw;
     background: gray;
     border: solid;
-    border-color: brown;
+    border-color:white;
     color: bisque;
     text-align:left;
     border-radius: 20px;
@@ -24,6 +27,6 @@ footer{
     color: gray;
     border-radius: 50%;
     background: white;
-    box-shadow: 10px 10px 10px;
+    box-shadow: 30px 30px 30px black;
     text-align: center;
 }
