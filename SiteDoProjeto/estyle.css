@@ -1,7 +1,7 @@
 header{
     color: gray;
     text-align: center;
-
+    
 }
 body{
     background: pink;
@@ -14,7 +14,7 @@ body{
 }
 section{
     height: 45vh;
-    width: 45vw;
+    width: 30vw;
     background: gray;
     border: solid;
     border-color:white;
