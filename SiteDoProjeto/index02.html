@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treino de Matemática</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estyle.css">
+    <title>Treino de Matemática</title>
 </head>
 <body>
     <header>
         <h1>Vamos Contar?</h1>
     </header>
     <section>
-        <div>
-            <p>Digite o primeiro número:</p>
-                 <input type="number" name="txtn1" id="txtn1">+
-            <p>Digite o segundo número:</p>
-                <input type="number" name="txtn2" id="txtn2">  
-                <input type="button" value="Somar" onclick="somar()"> 
-                <div id="res">Resposta</div>          
+        <div id="dados"><br>
+            <p>Início:<input type="number" name="inicio" id="txti"></p>
+            <p>Fim:<input type="number" name="fim" id="txtf"></p>
+            <p>Passo:<input type="number" name="passo" id="txtp"></p>
         </div>
+        <div>
+            <input type="button" value="Contar" onclick="contar()">
+        </div><br>
+        <div id="res">Resposta</div><br>
     </section>
     <footer>
             <p>GitHub&KatiaArruda</p>

@@ -1,9 +1,21 @@
-function somar(){
-    let tn1 = window.document.getElementById('txtn1')
-    let tn2 = window.document.querySelector('input#txtn2')
-    let res = window.document.getElementById('res')
-    let n1 = Number(tn1.value)
-    let n2 = Number(tn2.value)
-    let soma = n1 + n2
-    res.innerText ='A soma entre ${n1} e ${n2} é igual a ${s}'
-}
+function contar(){
+    let ini = document.getElementById('txti');
+    let fim = document.getElementById('txtf');
+    let passo = document.getElementById('txtp');
+    let res = document.getElementById('res');
+    
+    if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0){
+        window.alert('[ERRo]Faltam dados');
+    }else{
+        res.innerHTML = 'Resultado:'
+        let i = Number(ini.value);
+        let f = Number(fim.value);
+        let p = Number(passo.value);
+        
+        for(let c = i; c <=f; c += p){
+        res.innerHTML +=    ` ${c} `
+        };
+
+    };
+};
+   
